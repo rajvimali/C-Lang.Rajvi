@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main(){
+   //logical operator(=):
+   int a=10,b=20;
+   clrscr();
+   if(a==11 && b==12){
+	printf("Success");
+   }
+   else{
+	printf("Fail");
+   }
+   getch();
+
+}
