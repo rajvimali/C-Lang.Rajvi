@@ -1,0 +1,15 @@
+#include<stduio.h>
+void main(){
+	//Largest Num:-
+	int x=30, y=40, z=50;
+	clrscr();
+	if(x>y && x>z){
+		printf("X is Largest");
+	}else if(y>z && y>x){
+		printf("Y is Largest");
+	}else{
+		printf("Z is Largest");
+	}
+	getch();
+
+}
