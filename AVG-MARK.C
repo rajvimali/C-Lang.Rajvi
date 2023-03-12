@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main(){
+	//Average of 5 sub Marks:-
+	float m1, m2, m3, m4, m5, avg;
+	clrscr();
+	printf("Enter Marks1 :");
+	scanf("%f", &m1);
+	printf("Enter Marks2 :");
+	scanf("%f", &m2);
+	printf("Enter Marks3 :");
+	scanf("%f", &m3);
+	printf("Enter Marks4 :");
+	scanf("%f", &m4);
+	printf("Enter Marks5 :");
+	scanf("%f", &m5);
+	avg=(m1+m2+m3+m4+m5)/5;
+	printf("Average of 5 sub Marks is: %.2f",avg);
+	getch();
+}
