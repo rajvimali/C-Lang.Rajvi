@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	//Compound interest:--
+	float principle,rate,time,ci;
+	clrscr();
+
+	printf("Enter The Principle(amount) : ");
+	scanf("%f",&principle);
+
+	printf("Enter The Rate : ");
+	scanf("%f",&rate);
+
+	printf("Enter The Time : ");
+	scanf("%f",&time);
+
+	ci=principle*(pow((1+rate/100),time));
+	printf("Compound Interest : %f",ci);
+
+	getch();
+}
