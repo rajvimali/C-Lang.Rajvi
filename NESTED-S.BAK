@@ -1,0 +1,48 @@
+#include<stdio.h>
+void main(){
+	//Nested Switch:-
+	char user;
+	int password;
+	clrscr();
+	printf("Enter User Name:");
+	scanf("%c",&user);
+	switch(user){
+		case 'r':
+			printf("Enter Your Password : ");
+			scanf("%d",&password);
+			switch(password){
+				case 123:
+					printf("Login Successfully");
+				default:
+					printf("Invalid Password");
+
+			}
+			break;
+
+		case 'a':
+			printf("Enter Your Password : ");
+			scanf("%d",&password);
+			switch(password){
+				case 456:
+					printf("Login Successfully");
+				default:
+					printf("Invalid Password");
+			}
+			break;
+
+		case 'v':
+			printf("Enter Your Password : ");
+			scanf("%d",&password);
+			switch(password){
+				case 126:
+					printf("Login Successfully");
+				default:
+					printf("Invalid Password");
+			}
+			break;
+
+		default:
+			printf("Invalid Username");
+	}
+	getch();
+}
