@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+	//Nested Loop:-
+	int i,j;
+	clrscr();
+	for(i=0;i<8;i++){
+		for(j=0;j<=i;j++){
+			printf("* ",i,j);
+		}
+		printf("\n");
+	}
+	getch();
+}
