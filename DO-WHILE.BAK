@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+	//do..While Loop:-
+	int a=0;
+	clrscr();
+	do{
+		a++;
+		printf("%d \n",a);
+	}while(a<5);
+	getch();
+
+
+}
